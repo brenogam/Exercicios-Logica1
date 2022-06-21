@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+    var pesoBreno = 78;
+    var alturaBreno = 1.90;
+    var imcBreno = pesoBreno / (alturaBreno * alturaBreno);
+
+    var pesoBruna = 48;
+    var alturaBruna = 1.57;
+    var imcBruna = pesoBruna / (alturaBruna * alturaBruna);
+
+    var pesoRosangela = 70;
+    var alturaRosangela = 1.60;
+    var imcRosangela = pesoRosangela / (alturaRosangela * alturaRosangela);
+
+
+    mostra("O imc do Breno é " + imcBreno);
+    mostra("O imc da Bruna é " + imcBruna);
+    mostra("O imc da Rosângela é " + imcRosangela);
+
+</script>
