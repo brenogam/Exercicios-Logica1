@@ -1,0 +1,56 @@
+Lista de Tags Aprendidas ( Sublime/JavaScript ) - Aulas de Lógica 1 - ALURA
+
+As tags abaixo que possuem * só funcionarão no mundo Java Script.
+
+<Meta Charset="UTF-8"> Corrigi erros de erros de ortografia, pois nem todos navegadores detectam o enconding automaticamente.
+
+<script> </script> Dá acesso e encerramento ao mundo Java Script. 
+
+<h1>Texto</h1> Evidencia um texto em forma de cabeçalho com letras maiores.
+
+<br> Pula a linha.
+
+<input/> Abre uma entrada de dados.
+
+<button>texto</button> Cria um botão.
+
+var n = "texto" / var n = numero  Cria-se uma variável (valor mutável) no qual pode ser atribuido uma string ou um número.
+
+document.write("Texto"); Escreve do mundo Java Script para o mundo HTML.* 
+
+<a href="http://www.alura.com.br">aqui</a> Essa tag chamada de "âncora", liga um texto à um site. Por exemplo: Uma string se transforma em um link, o qual através de um click irei acesssar o site determinado.
+
+alert("Texto"); Cria um pop-up na tela.*
+
+prompt(" "); Captura tudo dentro dos parênteses e será exbibido na tela. Ex. var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+
+break; Esse comando quebra uma repetição.*
+
+while(){} Cria-se uma repetição em loop.*
+
+For(var x = 0; x <=0; x++) {Faça} Cria-se uma repetição em loop.*
+
+if(){} Determina uma condição Se. Caso cumpra a condição dentro dos parênteses, o programa rodará o bloco que está dentro das chaves.*
+
+else{} Condição utilizada após um If ou um Else If. Geralmente utilizada quando há apenas 2 possibilidades.*
+
+else if() {} Funcionará da mesma forma que um If.É utilizado para não se usar vários If em seguida.*
+
+parseInt() Converte uma string em um número inteiro não mantendo as casas decimais.*
+
+parseFloat() Converte uma string em um número e mantém as casas decimais.* 
+
+document.querySelector("input"); Captura oque o usuário digitou no input (html) e trás pro mundo javascript.*
+
+button.onclick = nomedafunção; Associa um botão a uma função específica.*
+
+input.focus(); Recoloca a setinha dentro da caixa de texto.
+
+input.value = ""; Zera a caixinha de texto do input.
+
+
+
+
+
+
+
